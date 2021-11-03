@@ -5,13 +5,12 @@
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     list-style: none;
-    background: #969696;
+    background: hsl(0, 0%, 83%);
 }
 
 #logo {
     position: absolute;
-    left: 41,06%;
-    right: 41.27%;
+    right: 52%;
     top: 21.76%;
     bottom: 71.17%;
 }
@@ -22,12 +21,10 @@
     height: 46px;
     left: 45px;
     top: 381px;
-
+    
     background: #F7F7F7;
-    box-shadow: -4px 4px 18px #00000017;
+    box-shadow: -4px 4px 18px rgba(0, 0, 0, 0.09);
     border-radius: 10px;
-
-    font-size: 15px;
 }
 
 #password {
@@ -36,27 +33,27 @@
     height: 46px;
     left: 45px;
     top: 448px;
-
+    
     background: #F7F7F7;
     box-shadow: -4px 4px 18px rgba(0, 0, 0, 0.09);
     border-radius: 10px;
-
-    font-size: 15px;
 }
 
 #new-password {
-    position: absolute;
-    width: 321px;
-    height: 46px;
-    left: 215px;
-    top: 520px;
+ 
+position: absolute;
+width: 102px;
+height: 15px;
+left: 253px;
+top: 529px;
 
-    color: black;
-    box-shadow: -4px 4px 18px rgba(0, 0, 0, 0.09);
-    border-radius: 10px; 
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
 
-    font-family: 'Roboto', bold;
-    font-size: 15px;
+color: #000000;
 
 }
 
@@ -82,16 +79,17 @@
 
 #new-account {
     position: absolute;
+    width: 240px;
     height: 18px;
     left: 87px;
     top: 649px;
-
-    font-family: 'Roboto';
+    
+    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
     line-height: 18px;
-
+    
     color: #969696;
 }
 
@@ -101,13 +99,15 @@ p {
     height: 29px;
     left: 143px;
     top: 729px;
-    
+
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
     font-size: 18px;
     line-height: 21px;
     text-align: center;
+
+    color: #000000;
      
 }
 
@@ -120,5 +120,6 @@ p {
 }
 
 .img {
-    padding-right: 5px;
+    padding-right: 7px;
+    padding-left: 7px;
 }
