@@ -2,124 +2,81 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     list-style: none;
 }
 
-#logo {
-    position: absolute;
-    right: 41.06%;
-    left: 41,27%;
-    top: 21.76%;
-    bottom: 71.17%;
+header img {
+    margin: 120px 0 70px  110px;
 }
 
-#username {
-    position: absolute;
-    width: 321px;
-    height: 46px;
-    left: 45px;
-    top: 381px;
-    
-    background: #F7F7F7;
-    box-shadow: -4px 4px 18px rgba(0, 0, 0, 0.09);
-    border-radius: 10px;
-}
-
+#username, 
 #password {
-    position: absolute;
-    width: 321px;
-    height: 46px;
-    left: 45px;
-    top: 448px;
-    
+    margin-top: 7px;
+    width: 227px;
+    height: 30px;
+    padding-left: 10px;
+
     background: #F7F7F7;
-    box-shadow: -4px 4px 18px rgba(0, 0, 0, 0.09);
-    border-radius: 10px;
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.09);
+    border-radius: 7px;
+
+    font: 700 15px 'Raleway', sans-serif, #696969;
+    color: #000000;
+}
+
+.inputs {
+    margin-left: 30px;
 }
 
 #new-password {
- 
-position: absolute;
-width: 102px;
-height: 15px;
-left: 253px;
-top: 529px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 13px;
-line-height: 15px;
-
-color: #000000;
-
-}
-
-#login {
     position: absolute;
-    width: 133px;
-    height: 46px;
-    left: 140px;
-    top: 582px;
-
-    color: #F7F7F7;
-    background: #323232;
-    box-shadow: -4px 4px 18px rgba(0, 0, 0, 0.09);
-    border-radius: 10px;
-
-    cursor: pointer;
+    margin: 20px 0 15px 160px;
+    font: 500 13px 'Montserrat', sans-serif;
+    color: #000000;
 }
 
-#login:hover {
-    transition: 0.6s;
-    color: white;
+button {
+    margin: 70px 0 0 92px;
+    width: 120px;
+    height: 40px;
+
+    font: 600 15px 'Raleway', sans-serif;
+
+    background: #1b1b1b;
+    color: #FFFFFF;
+    border-radius: 7px;
+}
+
+button:hover {
+    transition: background 0.4s;
+    background: #000000;
 }
 
 #new-account {
+    margin: 40px 0 20px 20px; 
     position: absolute;
-    width: 240px;
-    height: 18px;
-    left: 87px;
-    top: 649px;
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 18px;
-    
-    color: #969696;
+
+    font: 600 13px 'Montserrat', sans-serif;
+    color: #696969;
+}
+
+span {
+    color: #1B1B1B;
 }
 
 p {
-    position: absolute;
-    width: 128px;
-    height: 29px;
-    left: 143px;
-    top: 729px;
+    margin: 80px 0 0 140px;
 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 21px;
-    text-align: center;
-
-    color: #000000;
-     
+    font: 800 15px 'Montserrat', sans-serif;
 }
 
-#footer {
-    position: absolute;
-    width: 200px;
-    height: 30px;
-    left: 130px;
-    top: 800px;
+nav {
+    margin: 40px 0 20px 70px;
 }
 
 .img {
-    padding-right: 7px;
-    padding-left: 7px;
+    padding-right: 10px;
+    width: 50px;
+    height: 40px;
 }
