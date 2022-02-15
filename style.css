@@ -43,17 +43,25 @@ main, footer {
 
 .links {
     margin: 1.5rem;
-    font: 700 0.8rem 'DM Sanss', sans-serif;
+    font: 700 0.8rem 'DM Sans', sans-serif;
 } 
 
 .new-password {
     display: inline-block;
     margin-left: 10rem;
+
+    color: #4d4848;
 }
 
 .new-account {
     margin-top: 0.5rem;
     display: inline-block;
+
+    color: #4d4848;
+}
+
+.new-account span {
+    color: #1b1b1b;
 }
 
 button {
